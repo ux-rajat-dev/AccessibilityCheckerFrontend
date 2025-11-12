@@ -14,7 +14,7 @@ const AccessibilityChecker = () => {
     try {
       setIsLoading(true);
       const response = await axios.post(
-        'https://microuxtestsimulator.onrender.com/check-contrast',
+        'https://rajat567-accessibilitychecker.hf.space/check-contrast',
         {
           background: bgColor,
           text: textColor,
